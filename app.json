@@ -9,7 +9,7 @@
     ],
     "stack": "container",
     "repository": "https://github.com/ThirdDaw/pgadmin-config",
-    "success_url": "/console",
+    "success_url": "/",
     "env": {
         "PGADMIN_DEFAULT_EMAIL": {
             "description": "Default Admin email",
