@@ -8,7 +8,7 @@
         "heroku"
     ],
     "stack": "container",
-    "repository": "https://github.com/ThirdDaw/pgadmin-config",
+    "repository": "https://github.com/MBIT-LLC/pgadmin-config",
     "success_url": "/",
     "env": {
         "PGADMIN_DEFAULT_EMAIL": {
