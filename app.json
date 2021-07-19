@@ -1,0 +1,30 @@
+{
+    "name": "pgAdmin",
+    "description": "Deployment of pgAdmin",
+    "keywords": [
+        "database",
+        "pgadmin",
+        "postgres",
+        "heroku"
+    ],
+    "stack": "container",
+    "repository": "https://github.com/ThirdDaw/pgadmin-config",
+    "success_url": "/",
+    "env": {
+        "PGADMIN_DEFAULT_EMAIL": {
+            "description": "Default Admin email",
+            "value": "admin@gmail.com"
+        },
+        "PGADMIN_DEFAULT_PASSWORD": {
+            "description": "Default Admin password",
+            "value": "admin"
+        },
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "hobby"
+        }
+    },
+    "addons": []
+}

@@ -1,0 +1,3 @@
+FROM joserocha/pgadmin4
+ENV PGADMIN_DEFAULT_EMAIL admin@gmail.com
+ENV PGADMIN_DEFAULT_PASSWORD admin
