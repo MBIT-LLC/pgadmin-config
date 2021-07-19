@@ -1,4 +1,4 @@
-# Deploy Keycloak to Heroku
+# Deploy pgAdmin to Heroku
 
 Using Hobby dyno
 

@@ -9,7 +9,7 @@
     ],
     "stack": "container",
     "repository": "https://github.com/ThirdDaw/pgadmin-config",
-    "success_url": "/",
+    "success_url": "/console",
     "env": {
         "PGADMIN_DEFAULT_EMAIL": {
             "description": "Default Admin email",
@@ -18,7 +18,7 @@
         "PGADMIN_DEFAULT_PASSWORD": {
             "description": "Default Admin password",
             "value": "admin"
-        },
+        }
     },
     "formation": {
         "web": {
